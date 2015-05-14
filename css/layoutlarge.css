@@ -1,0 +1,247 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;
+}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+
+body{
+    overflow: hidden; /*lock scrolling*/
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+header{
+    background-color: #e9e7d9;
+    display: inline-block;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    position: fixed; top: 0px;
+    word-spacing: 8px;
+    height: 130px;
+}header img{
+    width: 120px;
+    height: 120px;
+}
+
+h1, h2{
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    display: inline-block;
+    font-size: 70px;
+    color: #254929;
+    position: relative;
+    bottom: 35px;
+    text-shadow: 3px 3px #000;
+}
+h2{
+    font-size: 43px;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    bottom: 45px;
+}
+
+#background {
+    z-index: -2;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../img/PrivateShoots/4.jpeg) no-repeat;
+    background-size: cover;
+    min-width: 700px;
+    min-height: 600px;
+    height: 1200px;
+}
+
+nav{
+    padding-right: 12px;
+    padding-left: 10px;
+    padding-top: 30px;
+    line-height: 90px;
+    background-color: #74ba78;
+    box-shadow: 10px 10px #343f34;
+    position: absolute;
+    top: 280px;
+    right: 0px;
+    width: 100px;
+    height: 420px;
+}
+
+.container{
+    padding-right: 16px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #74ba78;
+    box-shadow: 11px 11px #343f34;
+    position: absolute;
+    top: 280px;
+    right: 11px;
+    width: 1000px;
+    overflow: auto;
+}
+
+.container p{
+    margin-right: 590px;
+    text-indent: 13px;
+    text-align: left;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 19px;
+}
+
+#garypic{
+    background-image: url(../img/nav/computergary.jpg);
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    position:relative;
+    height: 390px;
+    width: 589px;
+    background-size: cover;s
+}
+b{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+i{
+    font-style: italic;
+    color: #2F2F4F;
+}
+
+a{
+  transition: color 0.5s ease;
+    color: #c12728;
+    text-decoration: none;
+}
+a:hover {
+  color: #800000;
+}
+
+.more{
+    text-align: left;
+    letter-spacing: 15px;
+    padding-left: 3px;
+}
+
+.more img{
+    height: 40px;
+}
+
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 9px rgba(0,0,0,0.6); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 9px rgba(0,0,0,0.9); 
+    background-color: #053e05;
+}
+
+
+.contactcontain{
+    padding-right: 16px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #74ba78;
+    box-shadow: 11px 11px #343f34;
+    position: absolute;
+    top: 280px;
+    right: 11px;
+    width: 1000px;
+    overflow: auto;
+    
+}
+
+.contactcontain p{
+    text-indent: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.containergal{
+    padding-right: 16px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #74ba78;
+    box-shadow: 11px 11px #343f34;
+    position: absolute;
+    top: 280px;
+    right: 11px;
+    width: 1000px;
+    overflow: auto;
+    text-align: center;
+}
+
+.gallery img{
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#contact img{
+    width: 100px; 
+    margin-left: auto;
+    margin-right: auto; 
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#contact{
+    text-align: center; 
+}
+
+.overlay{
+    position: relative; 
+    height: 180px;
+    width: 300px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.overlay h3{
+    color: white; 
+    padding-top: 30%;
+    text-shadow: 3px 3px #000;
+}
+
+#mcc14, #private, #ax14, #othon14{
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 180px;
+    width: 300px;
+    display: inline-block; 
+}
+
+#mcc14{
+    background-image: url(../img/MontrealComiccon14/2.jpeg);
+}
+
+#private{
+    background-image: url(../img/PrivateShoots/1.jpeg);
+}
+
+#ax14{
+    background-image: url(../img/ax14/1.jpeg);
+}
+
+#othon14{
+    background-image: url(../img/otakuthon14/1.jpeg);
+}

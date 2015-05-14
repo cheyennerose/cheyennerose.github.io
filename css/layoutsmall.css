@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;
+}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+
+body{
+    overflow: hidden; /*lock scrolling*/
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+header{
+    background-color:#e9e7d9;
+    display: inline-block;
+    padding-top: 10px; 
+    width: 100%;
+    position: fixed; top: 0px;
+    height: 120px;
+}
+
+header img{
+    height: 110px;
+    width: 110px;
+}
+
+h1, h2{
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    display: inline-block;
+    top: -55px; 
+    font-size:40px;
+    color: #254929;
+    text-align: center;
+    bottom: 60px;
+    position: relative;
+    text-shadow: 1.5px 1.5px #000;
+} h2 {
+    font-size: 30px;
+    left: 50px; 
+    letter-spacing: 1px;
+}
+
+#background {
+    z-index: -2;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../img/MontrealComiccon14/1.jpeg) no-repeat;
+    background-size: cover;
+    min-width: 700px;
+    min-height: 600px;
+    height: 1200px;
+}
+
+nav{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 10px;
+    background-color: #74ba78;
+    box-shadow: 10px 10px #343f34;
+    position: fixed;
+    top: 80%;
+    width: 330px;
+    text-align: center; 
+    height: 90px;
+    margin-right: 15%;
+    margin-left: 15%; 
+}
+
+nav img{
+    height: 85px;
+    width: 85px;
+}
+
+.container{
+    padding-right: 16px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #74ba78;
+    box-shadow: 11px 11px #343f34;
+    position: fixed;
+    top: 340px;
+    margin-left: 13px;
+    margin-right: 8px;
+    width: 90%;
+    height: 500px;
+    overflow: auto;
+}
+.container p{
+    text-indent: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 17px;
+}
+#garypic{
+    background-image: url(../img/nav/cellgary2.jpg);
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    position:relative;
+    width: 280px;
+    height: 200px;
+    background-size: cover;
+}
+
+b{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+i{
+    font-style: italic;
+    color: #2F2F4F;
+}
+
+a{
+  transition: color 0.5s ease;
+    color: #c12728;
+    text-decoration: none;
+}
+a:hover {
+  color: #800000;
+}
+.more{
+    text-align: left;
+    letter-spacing: 15px;
+    padding-left: 3px;
+}
+
+.more img{
+    height: 35px;
+
+}
+ 
+::-webkit-scrollbar {
+    width: 13px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 9px rgba(0,0,0,0.6); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 9px rgba(0,0,0,0.9); 
+    background-color: #053e05;
+}
+
+
+.contactcontain{
+    padding-right: 16px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #74ba78;
+    box-shadow: 11px 11px #343f34;
+    position: fixed;
+    top: 340px;
+    margin-left: 13px;
+    margin-right: 8px;
+    width: 90%;
+    height: 500px;
+    overflow: auto;
+}
+.contactcontain p{
+    text-indent: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+
+.containergal{
+    padding-right: 16px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #74ba78;
+    box-shadow: 11px 11px #343f34;
+    position: fixed;
+    top: 340px;
+    margin-left: 13px;
+    margin-right: 8px;
+    width: 90%;
+    height: 500px;
+    overflow: auto;
+    text-align: center; 
+}
+
+.gallery img{
+    height: 195px;
+    padding-top: 10px;
+}
